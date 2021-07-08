@@ -12,11 +12,11 @@ const agent = (url, options, customs) => {
   options.headers = options.headers || {}
 
   // NOTE: Clubhouse;
-  options.headers['User-Agent'] = customs.userAgent || 'clubhouse/297 (iPhone; iOS 14.4; Scale/2.00)'
+  options.headers['User-Agent'] = customs.userAgent || 'clubhouse/434 (iPhone; iOS 14.4; Scale/2.00)'
   options.headers['CH-Languages'] = customs.languages || 'en-US'
   options.headers['CH-Locale'] = customs.locale || 'en_US'
-  options.headers['CH-AppVersion'] = customs.appVersion || '0.1.27'
-  options.headers['CH-AppBuild'] = customs.appBuild || '297'
+  options.headers['CH-AppVersion'] = customs.appVersion || '0.1.40'
+  options.headers['CH-AppBuild'] = customs.appBuild || '434'
   options.headers['CH-DeviceId'] = customs.deviceId || uuidv4().toUpperCase()
   options.headers['CH-UserID'] = customs.userId || '(null)'
 
